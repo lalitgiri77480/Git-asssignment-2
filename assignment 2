@@ -1,54 +1,91 @@
+git
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git rm lalit.txt
+rm 'lalit.txt'
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
-$ git --version
-git version 2.25.1.windows.1
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git clone https://github.com/opencv/opencv.git
+Cloning into 'opencv'...
+remote: Enumerating objects: 47, done.
+remote: Counting objects: 100% (47/47), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 269059 (delta 18), reused 25 (delta 10), pack-reused 269012
+Receiving objects: 100% (269059/269059), 467.63 MiB | 1.41 MiB/s, done.
+Resolving deltas: 100% (187668/187668), done.
+Updating files: 100% (6132/6132), done.
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ touch error.log
+
+
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ touch .gitignore
+
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ touch lalit.log
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
 $ git status
-fatal: not a git repository (or any of the parent directories): .git
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    comiit2.txt
+        deleted:    lalit.txt
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
-$ git init
-Initialized empty Git repository in C:/Users/Lalit/Desktop/git repo test/.git/
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .gitlalit.log
+        .payal.log
+        error.log
+        gitignore
+        lalit.log
+        opencv/
+        payal.log
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git add .
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git commit -m " add files "
-[master (root-commit) 5502cf5]  add files
- 2 files changed, 1 insertion(+)
- create mode 100644 test.txt
- create mode 100644 test2.txt
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    comiit2.txt
+        deleted:    lalit.txt
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git log
-commit 5502cf52b88554bae9999b079cf412ab98248e19 (HEAD -> master)
-Author: Lalit <1998lalitgiri123@gmail.com>
-Date:   Fri Feb 28 13:59:47 2020 +0530
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .gitlalit.log
+        .payal.log
+        error.log
+        gitignore
+        lalit.log
+        opencv/
+        payal.log
 
-     add files
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git add .
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    comiit2.txt
+        deleted:    lalit.txt
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git commit -m " add files "
-[master 55f390e]  add files
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 test3.txt
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .gitlalit.log
+        .payal.log
+        gitignore
+        lalit.log
+        opencv/
+        payal.log
 
-Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
-$ git log
-commit 55f390e37a3210003590edb6358be5fd007fd11f (HEAD -> master)
-Author: Lalit <1998lalitgiri123@gmail.com>
-Date:   Fri Feb 28 14:01:09 2020 +0530
 
-     add files
-
-commit 5502cf52b88554bae9999b079cf412ab98248e19
-Author: Lalit <1998lalitgiri123@gmail.com>
-Date:   Fri Feb 28 13:59:47 2020 +0530
-
-     add files
 
