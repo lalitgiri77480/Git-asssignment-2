@@ -1,0 +1,54 @@
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
+$ git --version
+git version 2.25.1.windows.1
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test
+$ git init
+Initialized empty Git repository in C:/Users/Lalit/Desktop/git repo test/.git/
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git add .
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git commit -m " add files "
+[master (root-commit) 5502cf5]  add files
+ 2 files changed, 1 insertion(+)
+ create mode 100644 test.txt
+ create mode 100644 test2.txt
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git log
+commit 5502cf52b88554bae9999b079cf412ab98248e19 (HEAD -> master)
+Author: Lalit <1998lalitgiri123@gmail.com>
+Date:   Fri Feb 28 13:59:47 2020 +0530
+
+     add files
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git add .
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git commit -m " add files "
+[master 55f390e]  add files
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test3.txt
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git repo test (master)
+$ git log
+commit 55f390e37a3210003590edb6358be5fd007fd11f (HEAD -> master)
+Author: Lalit <1998lalitgiri123@gmail.com>
+Date:   Fri Feb 28 14:01:09 2020 +0530
+
+     add files
+
+commit 5502cf52b88554bae9999b079cf412ab98248e19
+Author: Lalit <1998lalitgiri123@gmail.com>
+Date:   Fri Feb 28 13:59:47 2020 +0530
+
+     add files
+
